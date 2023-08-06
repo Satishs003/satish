@@ -1,0 +1,66 @@
+.a{
+    height: 300px;
+    width: 300px;
+    border: 5px solid green;
+    background-color: blue;
+    padding: 20px; 
+    margin: 40px;
+}
+.b{
+    height: 300px;
+    width: 300px;
+    outline: 5px solid red;
+    background-color: yellow;
+    padding: 20px; 
+    margin: 40px;
+}
+#a{
+    list-style: upper-roman;
+}
+#b{
+    list-style: upper-alpha
+}
+#c{
+    list-style: square;
+}
+#d{
+    list-style: circle;
+}
+#e{
+    list-style: none;
+    display: inline-block;
+}
+#one{
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    float: left;
+    margin-bottom: 30px;
+    position: static;
+}
+#two{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    float: left;
+    margin-bottom: 30px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+#three{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    float: left;
+    margin-bottom: 30px;
+    position: absolute;
+}
+#four{
+    height: 300px;
+    width: 300px;
+    background-color: violet;
+    float: left;
+    margin-bottom: 30px;
+    position: fixed;
+}

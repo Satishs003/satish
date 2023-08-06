@@ -1,0 +1,35 @@
+#topic1{
+    width: 100%;
+    height: 1000px;
+    background-color: aqua;
+    background-image: url(https://images4.alphacoders.com/113/113936.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: dotted;
+    border-color: blue;
+    border-color: red green yellow brown;
+    border-width: 5px;
+    /* border-bottom-style: dashed;
+    border-top-style: dotted;
+    border-left-style: double;
+    border-left-style: groove; */
+    border: 20px dotted dashed groove double;
+    border-radius: 20px;
+}
+#bgi{
+    color: white;
+    height: 40px;
+    width: 200px;
+}
+.border{
+    border-color: yellow;
+    border-style: dashed;
+    border-radius: 10px;
+}
+#border{
+    height: 40px;
+    width: 150px;
+    border-color: green;
+    border-width: 7px;
+    border-radius: 20px;
+}

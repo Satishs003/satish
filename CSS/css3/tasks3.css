@@ -1,0 +1,36 @@
+.three{
+    width: 830px;
+    height: 355px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 25%;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 30px;
+    border-color: red;
+    border-style: dotted;
+}
+.inside{
+    width: 800px;
+    height: 325px;
+    background-color: palevioletred;
+    padding: 15px;
+    border-radius: 15px;
+    border-color: palevioletred;
+}
+.task4{
+    width: 1000px;
+    height: 250px;
+    border-width: 25px;
+    border-style: dashed;
+    border-color: aqua;
+    margin-left: 15%;
+    margin-top: 100px;
+    background-color: red;
+}
+#inside4{
+    width: 950px;
+    height: 200px;
+    background-color: white;
+    padding: 25px;
+}

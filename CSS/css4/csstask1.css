@@ -1,0 +1,38 @@
+#main{
+    width: 1200px;
+    height: 500px;
+    background-color: darkgray;
+    margin: 100px;
+}
+.sub{
+    margin: 20px 50px 50px 50px;
+}
+#sub1{
+    width: 1100px;
+    height: 400px;
+    background-color: orange;
+}
+#sub2{
+    width: 1000px;
+    height: 300px;
+    background-color: gainsboro;
+}
+#sub3{
+    width: 900px;
+    height: 200px;
+    background-color: skyblue;   
+}
+.text{
+    font-size: 30px;
+    height: 30px;
+    margin: 0px;
+}
+#margin{
+    padding-left: 150px;
+}
+#border{
+    padding-left: 100px;
+}
+#pad{
+    padding-left: 50px;
+}
