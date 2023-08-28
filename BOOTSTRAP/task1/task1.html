@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="task1.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-6 bg-danger">
+                <div class="heading">
+                    <h1>GAMERZ</h1>
+                    <p>Where you can meet the gamerz.</p>
+                </div>
+                <div class="img">
+                    <img src="img1.jpg" alt="">
+                </div>
+                <div class="img-content">
+                    <h1>CREATE AN ACCOUNT</h1>
+                    <p>Create your gamerz account to meet various online players <br>and get a challengive gameplay.</p>
+                </div>
+            </div>
+            <div class="col-6 bg-success">
+                <div class="row mt-4">
+                    <label for="name" class="form-label">NAME: </label>
+                    <span class="input-group-text"><i class='bx bxs-user'></i>
+                        <input type="text" class="form-control" id="name" placeholder="FIRST-NAME">
+                        <input type="text" class="form-control" id="name" placeholder="LAST-NAME">
+                    </span>
+                </div>
+                <div class="row mt-2">
+                    <label for="mail" class="form-label">E-MAIL: </label>
+                    <span class="input-group-text"><i class='bx bxs-envelope'></i>
+                        <input type="email" class="form-control" id="mail" placeholder="Email Address">
+                    </span>
+                </div>
+                <div class="row mt-2">
+                    <label for="mobile" class="form-label">Mobile Number: </label>
+                    <span class="input-group-text">
+                        <i class='bx bxs-phone'></i>
+                        <input type="number" class="form-control" id="mobile" placeholder="Mobile Number">
+                    </span>
+                </div>
+                <div class="form-select mt-2">
+                    <label for="form-select" class="form-label">Select your pass</label>
+                    <span class="input-group-text">
+                        <i class='bx bxs-joystick-alt'></i>
+                        <select name="form-select" id="select">
+                            <option value="1">Free pass</option>
+                            <option value="2">Premium pass</option>
+                            <option value="3">Premium + pass</option>
+                        </select>
+                    </span>
+                </div>
+                <div class="row mt-2">
+                    <label for="pwd" class="form-label">PASSWORD: </label>
+                    <span class="input-group-text">
+                        <i class='bx bxs-lock-open'></i>
+                        <input type="password" class="form-control" id="pwd" placeholder="ENTER PASSWORD">
+                        <input type="password" class="form-control" id="pwd" placeholder="CONFIRM PASSWORD">
+                    </span>
+                </div>
+                <div class="row mt-3">
+                    <input type="submit" class="btn-primary bg-primary" value="Create your own account">
+                </div>
+                <hr>
+                <div class="row mt-3">
+                    <span class="input-group-text">
+                        <i class='bx bxl-facebook-square'></i>
+                            <input type="submit" class="btn-primary bg-primary form-control" value="facebook">
+                    </span>
+                </div>
+                <div class="row mt-3">
+                    <span class="input-group-text">
+                        <i class='bx bxl-google' ></i>
+                            <input type="submit" class="btn-primary bg-warning form-control" value="google">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
