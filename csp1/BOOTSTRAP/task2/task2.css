@@ -1,0 +1,30 @@
+i{
+    font-size: 55px;
+    display: inline;
+    float: left;
+}
+.para{
+    padding-left: 10%;
+}
+.bxs-pencil, .bx-shape-circle, .bxs-book-alt{
+    color: skyblue;
+}
+.bx-message, .bxs-pie-chart-alt-2, .bxs-message-rounded{
+    color: yellow;
+}
+.bxs-objects-vertical-bottom, .bxs-user-circle, .bxl-java{
+    color: green;
+}
+.bxs-map, .bxs-rocket, .bx-directions{
+    color: red;
+}
+.para2{
+    padding-left: 10%;
+    margin-right: 10%;
+}
+.card{
+    margin-top: 20px;
+}
+.text-info{
+    margin-left: 20px;
+}

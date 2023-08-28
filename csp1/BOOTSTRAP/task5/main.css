@@ -1,0 +1,35 @@
+div, .row{
+    min-height: 50px;
+    min-width: 100px;
+}
+/* .row, .row-1, .row-8{
+    border: 1px solid black;
+    outline: 3px solid white;
+    background-color: skyblue;
+    text-align: center;
+} */
+.container
+{
+    margin-top: 150px;
+}
+.row-4{
+    width: 400px;
+    height: 200px;
+}
+.mid{
+    width: 300px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 125px;
+    padding-top: 50px;
+}
+p{
+    width: 200px;
+}
+a{
+    font-family: Arial;
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+}
